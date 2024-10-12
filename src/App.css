@@ -1,0 +1,77 @@
+/* App.css */
+
+/* Overall Dashboard Layout */
+.dashboard-layout {
+  display: flex;
+}
+
+/* Sidebar Navigation */
+.navbar {
+  width: 200px; /* Adjust as needed */
+  background-color: #f4f4f4;
+  padding: 10px;
+  height: 100vh; /* Full height */
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar .active {
+  font-weight: bold;
+  color: #007bff; /* Change color for active link */
+}
+
+/* Content Area */
+.content-area {
+  flex: 1;
+  display: flex;
+}
+
+/* Sub Navbar Area */
+.subnav-area {
+  width: 200px; /* Adjust as needed */
+  background-color: #e9ecef; /* Slightly different background */
+  padding: 10px;
+  height: 100vh; /* Full height */
+  overflow-y: auto; /* Allow scrolling if content is long */
+}
+
+.subnav {
+  margin-bottom: 20px;
+}
+
+.subnav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subnav li {
+  margin-bottom: 10px;
+}
+
+.subnav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.subnav .active {
+  font-weight: bold;
+  color: #007bff; /* Change color for active link */
+}
+
+/* Content Section */
+.content-section {
+  flex: 1;
+  padding: 20px;
+}
